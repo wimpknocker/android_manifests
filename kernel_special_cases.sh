@@ -109,8 +109,8 @@ case $1 in
     ;;
     skomer)
         export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="Team-Exhibit/android_kernel_samsung_skomer"
+        export remoterevision="jellybean-v2"
+        export kernelsource="wimpknocker/android_kernel_samsung_skomer"
     ;;
     taoshan)
         export remote="github"
