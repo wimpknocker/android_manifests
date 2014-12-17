@@ -48,6 +48,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
+  <project path="device/samsung/skomer" name="wimpknocker/android_device_samsung_skomer" remote="github" revision="cm-11.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -500,4 +501,6 @@
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+  <project path="vendor/samsung/skomer" name="wimpknocker/android_vendor_samsung_skomer" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/skomer" name="wimpknocker/android_kernel_samsung_skomer" remote="github" revision="jellybean-v2" /> 
 </manifest>
