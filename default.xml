@@ -141,7 +141,7 @@
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="vanir" revision="kk44" />
   <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="kk44" groups="p3110" />
   <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="p3110" />
-  <project path="device/samsung/skomer" name="wimpknocker/android_device_samsung_skomer" remote="github" revision="kk44" groups="ste" />
+  <project path="device/samsung/skomer" name="wimpknocker/android_device_samsung_skomer" remote="github" revision="vaniraosp-kk44" groups="ste" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" revision="kk44" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="kk44" groups="device" />
@@ -653,4 +653,5 @@
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-11.0" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-11.0" />
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung/skomer" name="wimpknocker/android_vendor_samsung_skomer" remote="github" revision="vaniraosp-kk44" />
 </manifest>
