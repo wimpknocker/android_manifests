@@ -109,7 +109,7 @@ case $1 in
     ;;
     skomer)
         export remote="github"
-        export remoterevision="jellybean-v2"
+        export remoterevision="jellybean"
         export kernelsource="wimpknocker/android_kernel_samsung_skomer"
     ;;
     taoshan)
