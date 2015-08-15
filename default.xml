@@ -554,7 +554,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="mer-hybris/android_system_core" groups="pdk" revision="hybris-12.1" />
+  <project path="system/core" name="wimpknocker/android_system_core" groups="pdk" revision="hybris-12.1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
 <!--
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
