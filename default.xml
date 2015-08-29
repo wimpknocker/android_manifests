@@ -14,16 +14,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- Currently disabled due to repository being unavailable -->
-  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
-  <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="hybris-10.1"/>
-  <project path="hybris/droid-hal-version" name="mer-hybris/droid-hal-version" remote="github" revision="master"/>
-
   <project path="build" name="wimpknocker/android_build" groups="pdk,tradefed" revision="hybris-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="hybris/hybris-boot" name="wimpknocker/hybris-boot" revision="master"/>
+  <project path="rpm" name="wimpknocker/droid-hal-device" revision="master"/>
+  <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="master"/>
+  <project path="hybris/droid-hal-version" name="mer-hybris/droid-hal-version" remote="github" revision="master"/>
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
   <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
 
