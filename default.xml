@@ -394,8 +394,8 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
   <!-- SKOMER -->
-  <project path="device/samsung/skomer" name="wimpknocker/android_device_samsung_skomer" remote="github" revision="cm-10.1" />
-  <project path="kernel/samsung/skomer" name="wimpknocker/android_kernel_samsung_skomer" remote="github" revision="jellybean" />
+  <project path="device/samsung/skomer" name="wimpknocker/android_device_samsung_skomer" remote="github" revision="hybris-10.1" />
+  <project path="kernel/samsung/skomer" name="wimpknocker/android_kernel_samsung_skomer" remote="github" revision="hybris-10.1-blackhawk" />
   <project path="vendor/samsung/skomer" name="wimpknocker/android_vendor_samsung_skomer" remote="github" revision="cm-10.2" />
 </manifest>
 
