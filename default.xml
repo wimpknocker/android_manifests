@@ -590,4 +590,7 @@
   <!-- Device Skomer -->
   <project name="wimpknocker/android_device_samsung_skomer" path="device/samsung/skomer" revision="hybris-12.1" /> 
   <project name="wimpknocker/android_kernel_samsung_skomer" path="kernel/samsung/skomer" revision="hybris-12.1" /> 
+  <project path="rpm/" name="wimpknocker/droid-hal-skomer" revision="master" />
+  <project path="hybris/droid-configs" name="wimpknocker/droid-config-skomer" revision="master" />
+  <project path="hybris/droid-hal-version-skomer" name="wimpknocker/droid-hal-version-skomer" revision="master" />
 </manifest>
